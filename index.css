@@ -3,6 +3,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    
   }
 
   /*navbar*/
@@ -44,6 +45,7 @@ body, html {
     color:#FFFBFC;
     font-style: italic;
     text-align: center;
+    font-size: large;
     background-color: #30332E;
     opacity: 90%;
     bottom: 60px;
