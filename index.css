@@ -1,0 +1,66 @@
+/* css for index.html*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  /*navbar*/
+  .topnav {
+      overflow: hidden;
+      background-color: #30332E;     
+  }
+
+  /*fix for responsiveness */
+  .topnav img{
+      vertical-align: top;
+  }
+
+  .topnav a{
+      float: right;
+      color: white;
+      padding: 20px 22px;
+      text-align: center;
+      font-size: 20px;
+      text-decoration: none;
+  }
+
+.topnav a:hover{
+    background-color: #C4921C;
+    color: black;
+}
+
+  /* splash image */
+.bg {
+    background-image: url("images/cycling1.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.text-overlay {
+    position: absolute;
+    color:#FFFBFC;
+    font-style: italic;
+    text-align: center;
+    background-color: #30332E;
+    opacity: 90%;
+    bottom: 60px;
+    right: 20px;
+    left: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer {
+    overflow: hidden;
+    color: white;
+    padding: 18px 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #30332E;     
+}
+/*.logo {
+    float: right;
+}*/
