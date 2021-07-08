@@ -9,18 +9,8 @@
     <meta name="keywords" content="Cycling, Biking, Bikes">
     <meta name="author" content="Rachel">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="about.css" />
-    <style>
-        body {
-            background-color: #E7FBFB;
-        }
-
-        body header h1{
-            font-size: 4em;
-            text-align: center;
-            color: #010B5B;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+   
 </head>
 
 <body>
@@ -37,7 +27,65 @@
          
     </div>
 
+    <div class="bg">
+        <div class="text-overlay">
+            <h2>Let's get in touch!	
+                &#11167;
+            </h2>
+        </div>
+    </div>
+
     <!--body for page-->
+  
+
+    <!-- form-->
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" value="Your name here"><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="text" id="phone" name="phone" value="Your number here"><br><br>
+
+        <label for="phoneType">Type:</label>
+        <select id="phoneType" name="phoneType">
+            <option value="default">Click to select option</option>
+            <option value="cell">Cell Phone</option>
+            <option value="home">Home Phone</option>
+            <option value="work">Work Phone</option>
+        </select><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="Your email here"><br><br>
+
+        <label for="promo">Would you like to sign up for our mailing list to get access to the latest sales, promotions, and events? <br>(We promise to never spam your inbox!)</label><br>
+        <input type="radio" id="yes" value="yes" name="emailChoice">
+        <label for="yes">Sign me up!</label>
+        <input type="radio" id="no" value="no" name="emailChoice">
+        <label for="no">No Thanks</label><br><br>
+
+        <label for="checkbox">I'm interested in:</label><br>
+        <input type="checkbox" id="interest1" name="custom" value="custom">
+        <label for="custom">Custom Builds</label>
+        <input type="checkbox" id="interest2" name="repairs" value="repairs">
+        <label for="custom">Repairs</label>
+        <input type="checkbox" id="interest3" name="financing" value="financing">
+        <label for="custom">Financing</label><br>
+        <input type="checkbox" id="interest4" name="help" value="help">
+        <label for="custom">Help</label>
+        <input type="checkbox" id="interest5" name="share" value="share">
+        <label for="custom">Just wanted to share something cool!</label>
+        <input type="checkbox" id="interest6" name="other" value="other">
+        <label for="custom">Something Else</label><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="50">
+        Enter your message here and we'll be sure to get back to you as soon as possible!
+        </textarea><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
     
 
 

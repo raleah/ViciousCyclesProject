@@ -5,8 +5,17 @@ body, html {
     margin: 0;
   }
 
+.bg {
+    background-image: url("/images/repair1.jpeg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blanchedalmond;
+  }
+
   /*navbar*/
-  .topnav {
+.topnav {
       overflow: hidden;
       background-color: #30332E;     
   }
@@ -16,7 +25,7 @@ body, html {
       vertical-align: top;
   }
 
-  .topnav a{
+.topnav a{
       float: right;
       color: white;
       padding: 20px 22px;
@@ -33,6 +42,86 @@ body, html {
 .topnav a.active{
   background-color: #FCAB10;
   color:black;}
+
+  .text-overlay {
+    position: absolute;
+    color:#FFFBFC;
+    font-style: italic;
+    text-align: center;
+    background-color: #30332E;
+    opacity: 90%;
+    bottom: 60px;
+    right: 20px;
+    left: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+}  
+
+
+body h1 {
+    font-size: 3em;
+    padding-left: 20px;
+}
+
+body h2 {
+    font-size: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    clear:left;
+    color: white;
+    background-color: #30332E;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+
+body section article p {
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 20px;
+    clear: left;  
+       
+}
+
+#main{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 25px; 
+    padding-bottom: 50px;
+    font-weight: bold;
+   
+}
+
+ul{
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 20px;
+    clear: left;  
+
+}
+
+.button {
+    width: 100%;
+    background-color: #FCAB10;
+    padding: 14px 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin: 8px;
+    border: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    text-decoration: none;
+    color:black;
+}
+
+.button:hover {
+    background-color: #C4921C;
+}
+
+.buttonHolder{
+    text-align: center;
+}
 
 
 footer {

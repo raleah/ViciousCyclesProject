@@ -5,6 +5,16 @@ body, html {
     margin: 0;
   }
 
+  
+.bg {
+    background-image: url("/images/events.jpeg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blanchedalmond;
+  }
+
   /*navbar*/
   .topnav {
       overflow: hidden;
@@ -33,6 +43,65 @@ body, html {
 .topnav a.active{
   background-color: #FCAB10;
   color:black;}
+
+.text-overlay {
+    position: absolute;
+    color:#FFFBFC;
+    font-style: italic;
+    text-align: center;
+    background-color: #30332E;
+    opacity: 90%;
+    bottom: 60px;
+    right: 20px;
+    left: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+}  
+
+body h1 {
+    font-size: 3em;
+    padding-left: 20px;
+}
+
+body h2 {
+    font-size: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    clear:left;
+    color: white;
+    background-color: #30332E;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+
+body section article p {
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 20px;
+    clear: left;  
+       
+}
+
+#main{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 25px; 
+    padding-bottom: 50px;
+    font-weight: bold;
+   
+}
+
+body section article p img#bikes1{
+    width: 50%;
+    
+    
+}
+
+body section article p img#bikes2{
+    width: 50%;
+    
+}
 
 
 footer {
